@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;   
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    height: 84px;
+    padding: 16px 128px 16px;
+    background-color: goldenrod;
+    font-size: 24px;
+    font-weight: bold;
+    
+    
+}
+
+.logo {
+    height:70px;
+    width: 248px;
+}
+
+.header-list {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
