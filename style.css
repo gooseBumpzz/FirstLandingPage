@@ -8,8 +8,8 @@ body {
 
 .header {
     display: flex;
+    flex: 1;
     justify-content: space-between;
-    
     height: 84px;
     padding: 16px 256px 16px;
     background-color: goldenrod;
@@ -18,6 +18,8 @@ body {
 }
 
 .logo {
+    /* display: flex;
+    flex: 1; */
     /* border: 5px solid red; */
     height: 70px;
     width: 248px;
@@ -33,14 +35,14 @@ body {
 
 .description {
     display: flex;
-    /* flex: 1; */
+    flex: 1;
     justify-content: space-between;
     flex-direction: row-reverse;
     padding: 16px 256px 0px;
     gap: 32px;
     background-color: goldenrod;
     flex-wrap: nowrap;
-    min-width: 620px;
+    /* min-width: 620px; */
 }
 
 .desc-left {
@@ -158,4 +160,10 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
 }
